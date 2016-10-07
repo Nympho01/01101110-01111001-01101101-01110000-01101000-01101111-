@@ -4,7 +4,7 @@ using System.Collections;
 public class controlador : MonoBehaviour {
 	public Animator animator;
 	public NavMeshAgent agent;
-	public GameObject target;
+	public GameObject[] target;
 	void Start () {
 
 	}
@@ -12,7 +12,7 @@ public class controlador : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		agent.SetDestination (target.transform.position);
+		agent.SetDestination (target[0].transform.position);
 		if (agent.velocity.z>0) {
 			print ("q");
 			animator.SetBool ("inidle", false);
