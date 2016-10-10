@@ -18,7 +18,7 @@ public class controlador : MonoBehaviour {
 	}
 	void OnCollisionEnter(Collision collision)
 	{
-		print ("colidiu"+collision.collider.name);
+		print (collision.collider.name);
 		if (collision.collider.name == "target1")
 		{
 			agent.SetDestination (target[1].transform.position);
