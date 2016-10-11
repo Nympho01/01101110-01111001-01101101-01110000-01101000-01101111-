@@ -29,8 +29,7 @@ public class controlador : MonoBehaviour {
 		}
 		else if (collision.collider.name == "target3")
 		{
-			animator.SetBool ("inidle", true);
-			animator.SetBool ("inwalk", false);
+			agent.SetDestination (target[3].transform.position);
 		}
 	}	
 }

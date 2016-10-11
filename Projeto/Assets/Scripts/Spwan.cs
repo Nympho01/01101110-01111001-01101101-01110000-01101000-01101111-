@@ -18,7 +18,7 @@ public class Spwan : MonoBehaviour {
 	public void Minion()
 	{
 		tempo += Time.deltaTime;
-		if(tempo>=2&&cont<5)
+		if(tempo>=1&&cont<5)
 		{
 			Instantiate(minion,transform.position,transform.rotation);
 			tempo = 0;
