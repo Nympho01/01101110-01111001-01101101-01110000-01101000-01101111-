@@ -26,5 +26,10 @@ public class Personagem : MonoBehaviour {
 				personagem.SetDestination (target);
 			}
 		}
+		if (personagem.remainingDistance == 0) 
+		{
+			animator.SetBool ("idle", true);
+			animator.SetBool ("walk", false);	
+		}
 	}
 }
