@@ -21,7 +21,6 @@ public class controladorcamera : MonoBehaviour {
 	void Update () {
 		if (Input.GetKeyDown("f"))
 		{
-			print ("F");
 			if (trava == true) {
 				trava = false;
 			}
