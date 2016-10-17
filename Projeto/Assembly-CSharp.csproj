@@ -89,6 +89,8 @@
      <Compile Include="Assets\Scripts\Minion.cs" />
      <Compile Include="Assets\Scripts\Personagem.cs" />
      <Compile Include="Assets\Scripts\Spwan.cs" />
+     <Compile Include="Assets\Scripts\alturacamera.cs" />
+     <Compile Include="Assets\Scripts\cameraaltura.cs" />
      <Compile Include="Assets\Scripts\controlador.cs" />
      <Compile Include="Assets\Scripts\controladorcamera.cs" />
      <None Include="Assets\Standard Assets\Effects\GlassRefraction\Shaders\GlassStainedBumpDistort.shader" />
