@@ -28,39 +28,42 @@ public class controladorcamera : MonoBehaviour {
 			}
 			else if (trava == false) {
 				trava = true;
-				transform.localPosition = vetorposicao;
+				vetorposicao.x=player.transform.position.x-10;
+				vetorposicao.y=transform.position.y;
+				vetorposicao.z=player.transform.position.z+10;
+				transform.position = vetorposicao;
 			}
 		}
 		if (trava == true) {
 			transform.rotation = vetor;
-			//vet.x=player.transform.position.x-10;
-			//vet.y=transform.position.y;
-			//vet.z=player.transform.position.z-10;
-			//transform.position = vet;
+			vet.x=player.transform.position.x-10;
+			vet.y=transform.position.y;
+			vet.z=player.transform.position.z+10;
+			transform.position = vet;
 		}
 		if (trava == false) {
-			if (transform.localPosition.x >= -23.44f) {
+			if (transform.localPosition.x >= 8.9f) {
 				if (Input.mousePosition.x == 0) {
 					m = 5;
 					transform.Translate (-m, 0, 0);
 					m = 0;
 				}
 			}
-			if (transform.localPosition.z >= -137.6) {
+			if (transform.localPosition.z >= 33.7f) {
 				if (Input.mousePosition.y <= 3) {
 					m = 5;			
 					transform.Translate (0, -m, 0);
 					m = 0;
 				}
 			}
-			if (transform.localPosition.x <= 294.3) {
+			if (transform.localPosition.x <= 433f) {
 				if (Input.mousePosition.x >= largura - 10) {
 					m = 5;
 					transform.Translate (m, 0, 0);
 					m = 0;
 				}
 			}
-			if (transform.localPosition.z <= 175.6) {
+			if (transform.localPosition.z <= 455.2f) {
 				if (Input.mousePosition.y >= altura) {
 					m = 5;			
 					transform.Translate (0, m, 0);
