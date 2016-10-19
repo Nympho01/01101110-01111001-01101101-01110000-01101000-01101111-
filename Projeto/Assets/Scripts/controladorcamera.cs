@@ -8,6 +8,8 @@ public class controladorcamera : MonoBehaviour {
 	public Quaternion vetor;
 	public Vector3 vetorposicao;
 	bool trava;
+	public GameObject player;
+	Vector3 vet;
 
 	// Use this for initialization
 	void Start () {
@@ -31,6 +33,10 @@ public class controladorcamera : MonoBehaviour {
 		}
 		if (trava == true) {
 			transform.rotation = vetor;
+			//vet.x=player.transform.position.x-10;
+			//vet.y=transform.position.y;
+			//vet.z=player.transform.position.z-10;
+			//transform.position = vet;
 		}
 		if (trava == false) {
 			if (transform.localPosition.x >= -23.44f) {
