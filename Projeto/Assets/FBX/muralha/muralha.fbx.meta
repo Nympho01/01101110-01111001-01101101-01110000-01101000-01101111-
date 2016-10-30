@@ -1,19 +1,15 @@
 fileFormatVersion: 2
-guid: 6b8bbbd40eaa3af46971b4edbd3a536a
-timeCreated: 1476026799
+guid: 127c0042aa30d96419dabb3ed6af2839
+timeCreated: 1477796234
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Cylinder
-    100002: Lamp
-    100004: //RootNode
-    400000: Cylinder
-    400002: Lamp
-    400004: //RootNode
-    2300000: Cylinder
-    3300000: Cylinder
-    4300000: Cylinder
+    100000: //RootNode
+    400000: //RootNode
+    2300000: //RootNode
+    3300000: //RootNode
+    4300000: Cube.001
   materials:
     importMaterials: 1
     materialName: 0
