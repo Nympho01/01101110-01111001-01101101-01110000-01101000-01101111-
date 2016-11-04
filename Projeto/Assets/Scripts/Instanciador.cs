@@ -4,7 +4,9 @@ using System.Collections;
 public class Instanciador : MonoBehaviour {
 
 
-	public controlador controlador,controladorMid,controladorBot;
+	public controlador controlador;
+	public ControladorMid controladorMid;
+	public ControladorBot controladorBot;
 	public GameObject[] vet,vetmid,vetbot;
 	// Use this for initialization
 	void Start () {

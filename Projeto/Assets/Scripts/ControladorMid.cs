@@ -8,8 +8,8 @@ public class ControladorMid : MonoBehaviour {
 
 	void Start () {
 		agent.SetDestination (target[0].transform.position);
-		animator.SetBool ("inidle", false);
-		animator.SetBool ("inwalk", true);
+		animator.SetBool ("idle", false);
+		animator.SetBool ("walk", true);
 	}
 
 	// Update is called once per fram
